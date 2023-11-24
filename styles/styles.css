@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Rock+Salt&display=swap');
+
+div {
+    max-width: 1600px;   
+}
+#content {
+    margin: 0 auto;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav a {
+    text-align: center;
+    color: #ff006e;
+    text-decoration: none;
+    padding: 35px;
+
+}
+#event-img {
+    width: 100%;
+    height: 90%;
+}
+#event-msg h1 {
+    margin-left: auto;
+    text-align: left;
+}
+#event {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px; 
+}
+#event-cell {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#event-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 450px;
+}
+.home-title {
+    color: #ff006e;
+    font-family: 'Rock Salt', 'sans-serif';
+    font-size: 2em;
+    margin-left: 10px;
+}
+
+main section {
+    text-align: center;
+
+}
+#background {
+    height: 525px;
+    grid-column: 1/11;
+    grid-row: 4/9;
+}
+body {
+    background-color: #fcfbfb;
+    font-family: 'Roboto', 'Rock salt', 'sans-serif';
+    font-size: 22px;
+    margin: 0;
+    padding: 0; 
+}
+header {
+    background-color:rgba(177, 182, 173, 0.7);
+    display: grid;
+    grid-template-columns: 150px auto; 
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+.logo {
+    width: 100px;
+}
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+.buffet-stand {
+    grid-column: 1/5;
+    grid-row: 1/2;
+}
+.buffet-img {
+    width: 150%;
+    
+}
+.msg {
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 7/12;
+    grid-row: 1/1;
+}
+footer {
+    background-color: #ff0ae2;
+    color: #8338ec;
+    padding: 25px 50px;
+    padding-top: 15px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a {
+    color: #fcfbfb;
+    text-decoration: none;
+
+}
+footer a:hover {
+    color: #ff006e;
+}
+footer p a:hover {
+    text-decoration: underline;
+}
+.social img {
+    padding-top: 15px;
+}
